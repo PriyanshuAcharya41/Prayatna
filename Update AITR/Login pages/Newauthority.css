@@ -1,0 +1,162 @@
+/* 🌟 Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0fdf4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 🎯 Main Container */
+.login-container {
+    width: 380px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* 📸 Image Section */
+.login-image img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+/* 🔥 Heading */
+h2 {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #222;
+}
+
+/* 📧 Email & 🔒 Password Fields */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+    text-align: left;
+    color: #333;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #004225;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 66, 37, 0.5);
+}
+
+/* 🔗 Forgot Password */
+.forgot-password {
+    text-align: right;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.forgot-password a {
+    color: #004225;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* 🎯 Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #004225;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.login-btn:hover {
+    background: #002915;
+    transform: scale(1.05);
+}
+
+/* 🔻 OR Divider */
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    color: #777;
+    font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background: #ccc;
+    top: 50%;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+/* 🔥 Google Sign In Button */
+.google-btn {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+.google-btn:hover {
+    background: #f1f1f1;
+    transform: scale(1.05);
+}
+
+/* 🎬 Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Tracking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="track.css">
+</head>
+<body>
+
+    <!-- Green Header -->
+    <div class="header"></div>
+
+    <!-- Complaint Tracking Box -->
+    <div class="container track-box">
+        <h2 class="text-center title">REAL TIME TRACKING COMPLAIN</h2>
+        <hr class="title-underline">
+
+        <!-- Complaint Input Field -->
+        <p class="text-center instruction">Enter your Complaint Number</p>
+        <div class="input-box">
+            <input type="text" id="complaintNumber" class="form-control" placeholder="Enter Complaint ID" oninput="validateInput()">
+            <span id="checkIcon" class="check-icon">&#10004;</span>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="button-container">
+            <button type="button" class="btn back-btn">BACK</button>
+            <button type="button" class="btn next-btn" onclick="trackComplaint()"><a href="trackdas.html">NEXT</a></button>
+        </div>
+    </div>
+
+    <script>
+        function validateInput() {
+            let input = document.getElementById("complaintNumber").value;
+            let icon = document.getElementById("checkIcon");
+
+            if (input.length > 3) {
+                icon.style.opacity = "1";
+            } else {
+                icon.style.opacity = "0";
+            }
+        }
+
+        function trackComplaint() {
+            let complaintNumber = document.getElementById("complaintNumber").value;
+            if (complaintNumber.length > 3) {
+                alert("Tracking Complaint: " + complaintNumber);
+                // Redirect logic can be added here
+            } else {
+                alert("Please enter a valid Complaint ID!");
+            }
+        }
+    </script>
+
+</body>
+</html>

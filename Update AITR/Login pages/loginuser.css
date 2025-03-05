@@ -1,0 +1,185 @@
+/* 🌟 Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* 🎯 Main Container */
+.container {
+    display: flex;
+    width: 900px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* 📝 Left Form Section */
+.form-section {
+    width: 50%;
+    padding: 40px;
+}
+
+/* 📸 Right Image Section */
+.image-section {
+    width: 50%;
+    background: #eef2f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* 🔥 Heading */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+p a {
+    color: #004225;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* 📧 Email & 🔒 Password Fields */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #004225;
+    outline: none;
+}
+
+/* 👁️ Password Input Container */
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.password-container input {
+    flex: 1;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* ✅ Remember Me & Forgot Password */
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+}
+
+/* 🎯 Sign In Button */
+.signin-btn {
+    width: 100%;
+    padding: 12px;
+    background: #004225;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.signin-btn:hover {
+    background: #002915;
+    transform: scale(1.05);
+}
+
+/* 🔻 OR Divider */
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    color: #777;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background: #ccc;
+    top: 50%;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+/* 🔥 Google Sign In Button */
+.google-btn {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+.google-btn:hover {
+    background: #f1f1f1;
+    transform: scale(1.05);
+}

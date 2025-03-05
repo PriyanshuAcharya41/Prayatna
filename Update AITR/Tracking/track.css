@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Green Header */
+.header {
+    background-color: #3FA043;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Complaint Tracking Box */
+.track-box {
+    background: #ffffff;
+    padding: 50px 30px;
+    max-width: 700px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Title Styling */
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title-underline {
+    width: 150px;
+    height: 2px;
+    background: #333;
+    margin: 10px auto;
+}
+
+/* Instruction Text */
+.instruction {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+.input-box {
+    position: relative;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-control {
+    background: #F0F4FA;
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    background: #e0e7f1;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(63, 160, 67, 0.5);
+}
+
+/* Green Check Icon */
+.check-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #3FA043;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Buttons Section */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background: #F0F0F0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.back-btn, .next-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Back Button */
+.back-btn {
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.back-btn:hover {
+    background: #e6e6e6;
+}
+
+/* Next Button */
+.next-btn {
+    background: #0D6EFD;
+    color: #fff;
+    border: none;
+}
+
+.next-btn:hover {
+    background: #0047B3;
+}

@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+
+    .service {
+        display: none;
+
+
+        a {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: black;
+            text-decoration: none;
+        }
+        .ft{
+            color: green;
+        }
+
+    }
+
+    .btn {
+        display: flex;
+        gap: 1rem;
+
+        button {
+            width: 10rem;
+            padding: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.559);
+            background-color:transparent;
+            color:black;
+            border-radius: 5px;
+
+
+
+        }
+    }
+}
+
+
+.banner{
+
+    background-image: url(page2image/postive-caring-relationships-teachers\ 1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    height: 20rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+    h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    p{
+        width: 50%;
+    }
+}
+
+.heading{
+    text-align: center;
+    padding: 15px;
+}
+
+.section1{
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+    justify-content: space-around;
+    .text-box{
+        text-align: start;
+        line-height: 2rem;
+        h2{
+            margin-bottom: 2rem;
+            font-size:1.8rem;
+        }
+        p{
+            color: rgb(111, 107, 107);
+            font-size: 1.5rem;
+        }
+    }
+    .img-box{
+        background-image: url(page2image/profile.png);
+        width: 20rem;
+        height: 20rem;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        border-radius: 10px 10px 0px 0px;
+        .btn-box{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            width: 100%;
+            background-color: green;
+
+            button{
+                width: 7rem;
+                padding: 7px;
+                background-color: rgb(84, 231, 84);
+                border: none;
+                color:black;
+                font-size: 1.1rem;
+                font-weight: bold;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.section2{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+    justify-content: space-around;
+    .text-box{
+        text-align: start;
+        line-height: 2rem;
+        h2{
+            margin-bottom: 2rem;
+            font-size:1.8rem;
+        }
+        p{
+            color: rgb(111, 107, 107);
+            font-size: 1.5rem;
+        }
+    }
+    .img-box{
+        background-image: url(page2image/profile2.png);
+        width: 20rem;
+        height: 20rem;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        border-radius: 10px 10px 0px 0px;
+        .btn-box{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            width: 100%;
+            background-color: green;
+
+            button{
+                width: 7rem;
+                padding: 7px;
+                background-color: rgb(84, 231, 84);
+                border: none;
+                color:black;
+                font-size: 1.1rem;
+                font-weight: bold;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.section3{
+    margin-top: 1rem;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    .text-box{
+        text-align: start;
+        line-height: 2rem;
+        h2{
+            margin-bottom: 2rem;
+            font-size:1.8rem;
+        }
+        p{
+            color: rgb(111, 107, 107);
+            font-size: 1.5rem;
+        }
+    }
+    .img-box{
+        background-image: url(page2image/profilecard.png);
+        width: 20rem;
+        height: 20rem;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        border-radius: 10px 10px 0px 0px;
+        .btn-box{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            width: 100%;
+            background-color: green;
+
+            button{
+                width: 7rem;
+                padding: 7px;
+                background-color: rgb(84, 231, 84);
+                border: none;
+                color:black;
+                font-size: 1.1rem;
+                font-weight: bold;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.section4{
+    margin-top: 1rem;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    .text-box{
+        text-align: start;
+        line-height: 2rem;
+        h2{
+            margin-bottom: 2rem;
+            font-size:1.8rem;
+        }
+        p{
+            color: rgb(111, 107, 107);
+            font-size: 1.5rem;
+        }
+    }
+    .img-box{
+        background-image: url(page2image/profile4.png);
+        width: 20rem;
+        height: 20rem;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        border-radius: 10px 10px 0px 0px;
+        .btn-box{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            width: 100%;
+            background-color: green;
+
+            button{
+                width: 7rem;
+                padding: 7px;
+                background-color: rgb(84, 231, 84);
+                border: none;
+                color:black;
+                font-size: 1.1rem;
+                font-weight: bold;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.work-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    h1{
+        font-size: 2rem;
+    }
+   .work-box{
+    margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+        gap: 1.7rem;
+
+        .box{
+            width: 25rem;
+        }
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1020px) {
+    .nav-bar {
+        .service {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
+        }
+    }
+}
